@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>Cool Page Here</title>
+        <style type="text/css">
+            body, html {font-size: 14px; font-family: "Roboto", sans-serif;}
+            h1, h2 {font-size: 24px; font-weight: bold; margin-bottom: 30px; color: #0C7C59;}
+            h2 {font-size: 20px;}
+            .food-image {
+                display: inline-block;
+                width: 300px;
+                height: 200px;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXtR-hcmz2QQ0nJ0KzoQ08t7cM-Iv4937cjQ&s");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                vertical-align: top;
+            }
+            .food-text { display: inline-block; vertical-align: top; margin-left: 15px; width: 150px}
+            table tr:nth-child(even) { background-color: #f5f0e8; }
+            table tr:nth-child(odd) { background-color: #fff; }
+            .form-label { display: inline-block; text-align: right; margin-right: 12px; vertical-align: top; }
+            .form-input { display: inline-block; }
+            .social-icons {
+                position: fixed;
+                top: 100px;
+                right: 35px;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+            .social-icons a {
+                display: block;
+                line-height: 0;
+            }
+            .social-icons svg {
+                width: 32px;
+                height: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" title="X (Twitter)" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <h1>James Hartley</h1>
+        <h2>Trip to Japan</h2>
+        <p>Last summer, I went on a trip to Japan with a friend of mine for 11 days.
+           We stayed in Tokyo, Kyoto, and Osaka, doing a lot of sightseeing, shopping, and eating.
+        </p>
+
+        <h2>My Pets</h2>
+        <div style="display: flex; justify-content: center;">
+            <ul style="border-style: solid; border-width: auto; border-color: #381D2A; padding: 30px;">
+                <li>Snake named Cheese</li>
+                <li>Fish named Albert</li>
+                <li>Dog named Ellington</li>
+            </ul>
+        </div>
+        <h2>Favorite Restaurant</h2>
+        <a href="https://www.deluxegreentogo.com">Deluxe Green Bo</a>
+        <br />
+        <h2>Favorite Food</h2>
+        <div class="food-image" title="PBJ and Milk"></div>
+        <div class="food-text">
+            <p>
+                Favorite food is PBJ, with strawberry or peach jam.
+                I usually eat it with a glass of milk.
+            </p>
+        </div>
+        <br />
+        <h2>Favorite Books</h2>
+        <table border = "1" cellpadding="4" cellspacing="5">
+            <tr>
+                <th>The Bluest Eye</th>
+                <th>Game of Thrones</th>
+                <th>Hyperion</th>
+                <th>Educated</th>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PwCy20Vt2KOOWSH2Rsu2dNqxsaCsyvOlxw&s" alt="The Bluest Eye"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVh7GKWXaw3hpLmm2ock1sme0gisuj5zaKQ&s" alt="Game of Thrones"></td>
+                <td><img src="https://images.penguinrandomhouse.com/cover/9780399178610" alt="Hyperion"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJ0FL8D0_6UqjMPxgXaIOVIlB4Pis0CrXdA&s" alt="Educated"></td>
+            </tr>
+            <tr>
+                <td>Toni Morrison</td>
+                <td>George R.R. Martin</td>
+                <td>Dan Simmons</td>
+                <td>Tara Westover</td>
+            </tr>
+            <tr>
+                <td>Coming-of-age story of a young black girl in the 1940s</td>
+                <td>Medieval fantasy novel about a split kingdom fighting for power</td>
+                <td>Science Fiction novel about a group of individuals who journey to confront a universally dangerous threat</td>
+                <td>Memoir about a young woman's coming of age in a strict fundamentalist family</td>
+            </tr>
+        </table>
+        <h2>Contact Me</h2>
+        <form action="https://www.example.com/subscribe" method="post">
+            <div class="form-row">
+                <span class="form-label"><label for="first_name">First Name:</label></span>
+                <span class="form-input"><input type="text" id="first_name" name="first_name"></span>
+            </div>
+            <div class="form-row">
+                <span class="form-label"><label for="last_name">Last Name:</label></span>
+                <span class="form-input"><input type="text" id="last_name" name="last_name"></span>
+            </div>
+            <div class="form-row">
+                <span class="form-label"><label for="email">Email:</label></span>
+                <span class="form-input"><input type="email" id="email" name="user_email"></span>
+            </div>
+            <div class="form-row">
+                <span class="form-label"><label for="city">City:</label></span>
+                <span class="form-input">
+                    <input type="text" id="city" name="city">
+                    <select name="state" id="state">
+                        <option value="MA">Massachusetts</option>
+                        <option value="NY">New York</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="CT">Connecticut</option>
+                    </select>
+                </span>
+            </div>
+            <div class="form-row">
+                <span class="form-label"></span>
+                <span class="form-input"><button type="submit">Submit</button></span>
+            </div>
+        </form>
+    </body>
+</html>
