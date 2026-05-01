@@ -15,6 +15,6 @@
   "type": "commonjs",
   "main": "app2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app2.js"
   }
 }
