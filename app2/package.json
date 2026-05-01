@@ -1,0 +1,20 @@
+{
+  "name": "places-app",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jayhart04/SP26-CS120#readme",
+  "bugs": {
+    "url": "https://github.com/jayhart04/SP26-CS120/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayhart04/SP26-CS120.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
